@@ -64,11 +64,6 @@ function [Xi,J_Evi_out,m_out,Var_out,m2nd]=BayesianRegressGreedy_NoiseIter(Theta
     J_Evi_out=zeros(1,D);
     m_out=cell(1,D);
     Var_out=zeros(N,D);
-    
-    % Initialise figure size 
-    if options.LogEvidenceAlphaPlot
-        fig_obj=figure('Position',[100 100 800 350]);
-    end
 
     %% Loop through each dimension
     for d=1:D
