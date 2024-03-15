@@ -99,33 +99,5 @@ if(polyorder>=4)
     end
 end
 
-if(polyorder>=5)
-    % poly order 5
-    for i=1:nVars
-        for j=i:nVars
-            for k=j:nVars
-                for l=k:nVars
-                    for m=l:nVars
-                        ind_list = [i j k l m];
-                        [uni_list,~,ic] = unique(ind_list);
-                        count_list = accumarray(ic,1);
-                        
-                        yout(:,ind) = VarPNormal(yin(:,uni_list(1)),yVar(:,uni_list(1)),count_list(1));
-                        yval = yin(:,uni_list(1)).^count_list(1);
-                        
-                        for ii=2:length(uni_list)
-                            yVar_ = VarPNormal(yin(:,uni_list(ii)),yVar(:,uni_list(ii)),count_list(ii));
-                            yval_ = yin(:,uni_list(ii)).^count_list(ii);
-                            yout(:,ind) = yout(:,ind) .* yVar_ + yout(:,ind) .* yval_.^2 + yVar_ .* yval.^2;
-                            yval = yval.*yval_;
-                        end
-                        ind = ind+1;
-                    end
-                end
-            end
-        end
-    end
-end
-
 end
 

@@ -22,6 +22,6 @@ switch order
     case 8
         E=mu.^8+28*mu.^6.*sigma2+210*mu.^4.*sigma2.^2+420*mu.^2.*sigma2.^3+105*sigma2.^4;
     otherwise
-        E=sqrt(2*sigma2).^(order)*imag(kummerU(-order/2,1/2,-1/2*mu.^2./sigma2));
+        error('Power of random variable too high! Not supported by this code.')
 end
 end
