@@ -1,7 +1,7 @@
 %% Generating Data from nonlinear oscillatory System and recovering it
 %  Using Bayesian-SINDy and the original SINDy (STLS)
 %
-% Copyright 2023, All Rights Reserved
+% Copyright 2024, All Rights Reserved
 % Code by Lloyd Fung and Matthew Juniper
 % Based on code by Steven L. Brunton
 %   For Paper, "Discovering Governing Equations from Data:

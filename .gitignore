@@ -3,7 +3,3 @@
 .DS_Store
 
 SparseBayes/
-SINDy/
-utils/poolData.m
-utils/poolDataLIST.m
-utils/sparseGalerkin.m

@@ -1,7 +1,7 @@
 %% Generating Data from Van Der Pol System and recovering it
 %  Using Bayesian-SINDy and the original SINDy (STLS)
 %
-% Copyright 2023, All Rights Reserved
+% Copyright 2024, All Rights Reserved
 % Code by Lloyd Fung and Matthew Juniper
 % Based on code by Steven L. Brunton
 %   For Paper, "Discovering Governing Equations from Data:
@@ -144,8 +144,8 @@ return
 
 %% Figure: Comparing prediction from Bayesian-SINDy with the Truth
 tspan = [0 10];
-[tA,xA]=ode89(@(t,x)vanderpol(t,x,param),tspan,x0);   % true model
-[tB,xB]=ode89(@(t,x)sparseGalerkin(t,x,Xi_B,polyorder,usesine),tspan,x0);  % approximate
+[tA,xA]=ode15s(@(t,x)vanderpol(t,x,param),tspan,x0);   % true model
+[tB,xB]=ode15s(@(t,x)sparseGalerkin(t,x,Xi_B,polyorder,usesine),tspan,x0);  % approximate
 
 % System Trajectory View
 figure('Position',[100 100 600 300])
