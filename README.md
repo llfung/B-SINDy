@@ -3,7 +3,7 @@ Model discovery from data for nonlinear dynamical systems using type-II maximum 
 
 Derived from the original [SINDy](https://doi.org/10.1073/pnas.1517384113) paper _"Discovering governing equations from data: Sparse identification of nonlinear dynamical systems"_ in the Proceedings of the National Academy of Sciences, **113**(15):3932-3937, 2016, by S. L. Brunton, J. L. Proctor, and J. N. Kutz.
 
-This code is part of [this article](https://arxiv.org/abs/2402.15357) by L. Fung, U. Fasel and M. P. Juniper.
+This code is part of [this article](https://doi.org/10.1098/rspa.2024.0200) by L. Fung, U. Fasel and M. P. Juniper.
 
 ## Using the code
 
