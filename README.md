@@ -1,6 +1,6 @@
 ## Notification 
 
-A newer, more noise-robust, more accurate version to Bayesian-SINDy - `:star:` [ODR-BINDy](https://github.com/llfung/ODR-BINDy) `:star:`- is now available on [GitHub](https://github.com/llfung/ODR-BINDy). Go check it out!
+A newer, more noise-robust, more accurate version to Bayesian-SINDy - :star: [ODR-BINDy](https://github.com/llfung/ODR-BINDy) :star:- is now available on [GitHub](https://github.com/llfung/ODR-BINDy). Go check it out!
 
 # Bayesian Sparse Identification of Nonlinear Dynamics (Bayesian-SINDy) 
 
