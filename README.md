@@ -1,4 +1,9 @@
+## `:exclamation:` Notification `:exclamation:`
+
+A newer, more noise-robust, more accurate version to Bayesian-SINDy - `:star:``:star:` [ODR-BINDy](https://github.com/llfung/ODR-BINDy) `:star:``:star:`- is now available on [GitHub](https://github.com/llfung/ODR-BINDy). Go check it out!
+
 # Bayesian Sparse Identification of Nonlinear Dynamics (Bayesian-SINDy) 
+
 Model discovery from data for nonlinear dynamical systems using type-II maximum likelihood in the Bayesian statistics, i.e. maximising evidence (or marginal likelihood). 
 
 Derived from the original [SINDy](https://doi.org/10.1073/pnas.1517384113) paper _"Discovering governing equations from data: Sparse identification of nonlinear dynamical systems"_ in the Proceedings of the National Academy of Sciences, **113**(15):3932-3937, 2016, by S. L. Brunton, J. L. Proctor, and J. N. Kutz.
